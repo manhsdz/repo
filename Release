@@ -1,0 +1,9 @@
+Origin: Manhsdz
+Label: Manhsdz Repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: Manhsdz Cydia Repository
+Icon: CydiaIcon.png
