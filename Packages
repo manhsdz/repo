@@ -94,6 +94,41 @@ Priority: required
 Description: the advanced packaging library from Debian
 Name: APT 0.7 Strict (lib)
 
+Package: bag.skyglow.bluetweety
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Requis, bag.xml
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/BlueTweety-Legacy.deb
+Size: 164540
+MD5sum: 2d8fa86eacc3b3422bff62dd514a92b6
+SHA1: ca89f3be01fe0c35980aa4ab2d769a728a1a1429
+SHA256: 436a4555e15c037f2b999d3c0ef67caf5c9ed63d9d4cad22f4350d3c7a3ac6ca
+Section: Tweaks
+Description: Fix the iOS integration with Twitter across the system, as well as the Twitter app.
+Author: Requis, bag.xml
+Depiction: http://cydia.skyglow.es/depictions/bag.skyglow.bluetweety/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.skyglow.bluetweety/BlueTweety-Icon.png
+Name: BlueTweety
+
+Package: bag.xml.tuberepair
+Version: 1.2-Beta-1
+Architecture: iphoneos-arm
+Maintainer: bag.xml, Requis
+Installed-Size: 216
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/bag.xml.tuberepair_1.2-Beta-1_iphoneos-arm.deb
+Size: 97368
+MD5sum: 9838724bcbd0d04e44a62c31baf2f182
+SHA1: af42f56aab86f98fad9b4a8503808a4490db7e0e
+SHA256: cad60e92e89b067cc8c605c3975210122a2129ccab907244d298cdd02da962dd
+Section: Tweaks
+Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
+Author: bag.xml, Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
+Name: TubeRepair [BETA]
+
 Package: base
 Version: 1-4
 Architecture: iphoneos-arm
@@ -404,6 +439,22 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sbutilsDp
 Dev: innoying
 Name: sbutils
 
+Package: com.iptm.libstatusbar
+Version: 3.1.6
+Architecture: iphoneos-arm
+Maintainer: Requis
+Depends: mobilesubstrate (>= 0.9.2586), firmware (>= 4.0)
+Filename: debs/com.iptm.libstatusbar_3.1.6_iphoneos-arm.deb
+Size: 107854
+MD5sum: 9fa03acb95abec5a043122865418e2d6
+SHA1: 87e3068140ffaa97657e1f02457c1cf593ea138f
+SHA256: aec55a9085794b56ec8874c7324c9401bf7585fdae7674d6a8bfd86fbb088d52
+Section: Development
+Description: pwning the statusbar for you, updated by Requis
+Tag: role::developer
+Author: phoenix3200, Requis
+Name: libstatusbar
+
 Package: com.isoftru.bochs
 Version: 1.0.0-1
 Architecture: iphoneos-arm
@@ -426,10 +477,10 @@ Architecture: iphoneos-arm
 Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Depends: firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader, preferenceloader
 Filename: debs/com.jamied360.ncsettings_1.7.1_iphoneos-arm.deb
-Size: 469856
-MD5sum: 0041b110f7619251851e7607895ee4a6
-SHA1: b6b1cc65385f54c5698b03e8272b3cb006f75913
-SHA256: 2d89292fe0d876afddab570a01c611d8640a8a903267405a581d54599cae23a5
+Size: 472030
+MD5sum: 8c17029eb872efac412f8e9acb5107d5
+SHA1: 29eb616b6720e9d9a4262722733824c5f0bc8e32
+SHA256: fcc1ba038df84e883dfae64c68ff2d3226f8596a35716f39671e10714c82111e
 Section: Addons (NotificationCenter)
 Priority: extra
 Homepage: http://modmyi.com/info/ncsettings.php
@@ -606,6 +657,76 @@ Description: safe mode safety extension (safe)
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 Name: Substrate Safe Mode
+
+Package: com.skyglow.itunesstorex
+Version: 3.2
+Architecture: iphoneos-arm
+Maintainer: Requis, Bag.xml
+Installed-Size: 312
+Depends: mobilesubstrate, firmware(<==7.9)
+Filename: debs/com.skyglow.itunesstorex_3.2_iphoneos-arm.deb
+Size: 108400
+MD5sum: 119e8183a48268f6920cfc3b0a8df212
+SHA1: 6b411c683fba5f6b3278a9aae28d956465bc32ba
+SHA256: 946952cc2bcc33ddd512dc5bbcfc0755c3ccd975cdd7f0a2c4384d9a4589cdcc
+Section: Tweaks
+Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
+Author: Requis, Bag.xml
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depictions/index.html
+Icon: file:///Library/Application%20Support/com.skyglow.itunesstorex/iTunesStoreX-Icon.png
+Name: iTunesStoreX
+
+Package: com.skyglow.mapsx
+Version: 3.2.1
+Architecture: iphoneos-arm
+Maintainer: Requis
+Installed-Size: 380
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.skyglow.mapsx_3.2.1_iphoneos-arm.deb
+Size: 136286
+MD5sum: b6e4b4339f4bcf2ebe24134f8c56061e
+SHA1: 467236de157315ee66bb818f5c89bd09cb7418e1
+SHA256: 26ba936f2b974b280e90f466de7d710829b578bb4a0d28c956a655aa239815fd
+Section: Tweaks
+Description: This tweak fixes Apple Maps and any MapView in the system (asking Siri for location...).
+Author: Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.mapsx/depictions/index.html
+Icon: file:///Library/Application%20Support/com.skyglow.mapsx/MapsX-Icon.png
+Name: MapsX
+
+Package: com.skyglow.snd
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: Requis, Preloading
+Installed-Size: 7320
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, applist, firmware (<< 7.2)
+Conflicts: com.skyglow.snd7
+Filename: debs/com.skyglow.snd_2.0.1_iphoneos-arm.deb
+Size: 1921232
+MD5sum: 742d7284eb21a5ae2cf59d7f2e93bb77
+SHA1: 62f2430767d3434f46cba4a42d57b8cf1b82bdbb
+SHA256: 53ad9bed8784a332ce9b5179ff70e829f098be9cf04a4fe5a0e27b35a30e74cf
+Section: Tweaks
+Description: Low power daemon that runs in the background and fetches notifications from a server for all of your apps.
+Author: Requis, Preloading
+Depiction: http://cydia.skyglow.es/depictions/?p=com.skyglow.snd
+Name: Skyglow Notifications
+
+Package: com.skyglow.tlsfix
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: nfzerox, Requis
+Depends: mobilesubstrate
+Conflicts: com.tlsfix
+Filename: debs/com.skyglow.tlsfix_1.1_iphoneos-arm.deb
+Size: 3311252
+MD5sum: ba9af608830dd02cfc01bf92c95b873c
+SHA1: 574fb87a899fba9d85f5928961baed13a7991315
+SHA256: 2ab67fb3adeafe25bf12bd8502287e55294374a5e06366a22d0a0faf96d864e0
+Section: Tweaks
+Description: Fixes SSL/TLS protocols and communications from iPhoneOS 2 to iOS 9, so that these devices can talk to any modern cypher-enabled server or service again.
+Author: nfzerox, Requis
+Name: TLSFix
 
 Package: com.skyglow.weatherx
 Version: 3.5

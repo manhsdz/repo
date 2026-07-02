@@ -1,9 +1,17 @@
-Origin: Manhsdz
-Label: Manhsdz Repo
-Suite: stable
-Version: 1.0
-Codename: ios
-Architectures: iphoneos-arm
-Components: main
-Description: Manhsdz Cydia Repository
-Icon: CydiaIcon.png
+Date: Thu, 02 Jul 2026 10:33:04 +0000
+MD5Sum:
+ 9e2c436809e40c377e04c52b1970f2d2           115401 Packages
+ aa86a7bd8c4dd674da5591ce8ba5f741            33923 Packages.gz
+ 03c3d51638160c8e1252c57b8def1ce0               38 Release
+SHA1:
+ f58ce504229b5fc84c5b0e1086c7082d55810974           115401 Packages
+ ee32c4086d68816fd226b341a856efba32412071            33923 Packages.gz
+ fa8c8f1e59fc9ac1e94e3e1840502d6f01a1db46               38 Release
+SHA256:
+ 9c6e2065130e128a00b201dbf0b5264da3ff453efca4bab2f1cb5dd85e2a3f12           115401 Packages
+ a24eefde8cdccbf847b8badc53875d67fd7ae2073032d4427a8965eb98dc58cc            33923 Packages.gz
+ c2c7815af653c1dba73621165537ce4d8bbd1db5b909ac954cdb04d0b38c98bf               38 Release
+SHA512:
+ c044f36d0ec27926b8229dd65a2c404d79577db33c2c3413e6f5b8ba5a2a9cf8429dd600be72601e404261e62b674e2d0c7470dbdfced683f8e67c82a8e7f211           115401 Packages
+ 186e7506e2844baddf9d2d09cdc671e1c8cc93122132f9eaa628523dc8a892bd6cb1379510e4def51ba95c65ecd157b32b35b97c94e4fe9309ee5092d31daf80            33923 Packages.gz
+ 04b24f42057eccea941c07d428dfb2a32579450fe7b371fd6fd1c129f3de2a02ceca096e21e8d5b5e547bfd682457cfd1d2a75c03f28bbe2925f6ee69644263b               38 Release
