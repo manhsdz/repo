@@ -2577,6 +2577,23 @@ Description: Secure Sockets Layer toolkit - shared libraries
  .
  It provides the libssl and libcrypto shared libraries.
 
+Package: libssl1.1.1
+Version: 1.1.1n-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 16848
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ca-certificates
+Filename: debs/libssl1.1.1_1.1.1n-1_iphoneos-arm.deb
+Size: 1741376
+MD5sum: ae5a8f3949e98c7ac541ca6db455e50f
+SHA1: 8cc6171dfdc24ec475c4f2909963e7e943f483ae
+SHA256: 228c43df4ddb58345b814a942b6590c17f986e6290cb3bebdd6eea77c45152ec
+Section: Security
+Priority: standard
+Description: OpenSSL Libraries for version 1.1.1
+Name: OpenSSL 1.1.1 Libraries
+
 Package: libxml2-lib
 Version: 2.6.32-3
 Architecture: iphoneos-arm
@@ -2687,22 +2704,135 @@ Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
 Name: AppSync Unified
 
 Package: openssh
-Version: 6.7p1-13
+Version: 8.4-2
 Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 4736
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 8
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: openssl
-Filename: debs/openssh_6.7p1-13_iphoneos-arm.deb
-Size: 2374378
-MD5sum: 7ca1a53c5203d7026d38ab275b465047
-SHA1: 72894eb331fadf94e53d2ae55e4cca0534a95d5b
-SHA256: 5bdc1aa0240be68aee7cb00d2aafe2041174b6a3b171c74c41c3a7ba9109c9c7
+Depends: libssl1.1.1, openssh-server, openssh-client, openssh-global-listener
+Filename: debs/openssh_8.4-2_iphoneos-arm.deb
+Size: 1022
+MD5sum: 6c1f11f33cf21944c892351e0ea3b9c1
+SHA1: 018ccd5f56ddd90d3ba3a391e5cf6c7ddce2bae9
+SHA256: aa7417489ad4d823713905347804b3fd1f481b710ec2512bed9d22b356875454
 Section: Networking
 Priority: important
-Description: secure remote access between machines
+Description: secure shell (SSH) server, for secure access from remote machines
+ This is the portable version of OpenSSH, a free implementation of the
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and
+ for executing commands on a remote machine.  It provides secure
+ encrypted communications between two untrusted hosts over an insecure
+ network. X11 connections and arbitrary TCP/IP ports can also be
+ forwarded over the secure channel.  It can be used to provide
+ applications with a secure communication channel.
+ .
+ This package provides the sshd server.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
 Depiction: http://cydia.saurik.com/info/openssh/
 Name: OpenSSH
+
+Package: openssh-client
+Version: 8.4-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 8960
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1
+Breaks: openssh (<= 8.4-1)
+Filename: debs/openssh-client_8.4-2_iphoneos-arm.deb
+Size: 568946
+MD5sum: 1186ac8493773028650fffd175adf44d
+SHA1: b7c4091431d4eaa3b652b5ab870a32668a921e79
+SHA256: cf0c5846564ba8dc28ff75fff3c0ff1d63c8c404abc9643fe7e22affa55afa82
+Section: Networking
+Priority: important
+Description: secure shell (SSH) client, for secure access to remote machines
+ This is the portable version of OpenSSH, a free implementation of the
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and
+ for executing commands on a remote machine.  It provides secure
+ encrypted communications between two untrusted hosts over an insecure
+ network. X11 connections and arbitrary TCP/IP ports can also be
+ forwarded over the secure channel.  It can be used to provide
+ applications with a secure communication channel.
+ .
+ This package provides the client binaries.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH Clients
+
+Package: openssh-global-listener
+Version: 8.4-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 32
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1, openssh-server (>= 8.4)
+Breaks: openssh (<= 8.4-1)
+Filename: debs/openssh-global-listener_8.4-2_iphoneos-arm.deb
+Size: 1762
+MD5sum: d7641f711e19a7609405c7f42b1dfdb1
+SHA1: 435d64034cccc9533dc4795e03d9ef559274cc39
+SHA256: 7e13797e0dea45e1b987fdda91c097659c318e510454abcb56679fd1df37defa
+Section: Networking
+Priority: important
+Description: secure shell (SSH) server, for secure access from remote machines
+ This is the portable version of OpenSSH, a free implementation of the
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and
+ for executing commands on a remote machine.  It provides secure
+ encrypted communications between two untrusted hosts over an insecure
+ network. X11 connections and arbitrary TCP/IP ports can also be
+ forwarded over the secure channel.  It can be used to provide
+ applications with a secure communication channel.
+ .
+ This package provides a global listener on port 22.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH Global Listener
+
+Package: openssh-server
+Version: 8.4-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1880
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1, openssh-client (>= 8.4)
+Breaks: openssh (<= 8.4-1)
+Filename: debs/openssh-server_8.4-2_iphoneos-arm.deb
+Size: 289990
+MD5sum: 259499fcbb9b26fedbecdeaaee420fe1
+SHA1: 015a2133dacd72994d3beed76522914eb1071c83
+SHA256: 5eab9bf07f41bc3be79e977a3ea170add9e15e40cb8b84ac09901f11d9cd7768
+Section: Networking
+Priority: important
+Description: secure shell (SSH) server, for secure access from remote machines
+ This is the portable version of OpenSSH, a free implementation of the
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and
+ for executing commands on a remote machine.  It provides secure
+ encrypted communications between two untrusted hosts over an insecure
+ network. X11 connections and arbitrary TCP/IP ports can also be
+ forwarded over the secure channel.  It can be used to provide
+ applications with a secure communication channel.
+ .
+ This package provides the sshd server.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH Server Binaries
 
 Package: openssl
 Version: 0.9.8zg-13
