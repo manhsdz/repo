@@ -6,36 +6,36 @@ Version: 1.0
 Architectures: iphoneos-arm
 Components: main
 Description: Manhsdz Cydia Repository
-Date: Tue, 07 Jul 2026 20:22:05 +0000
+Date: Tue, 07 Jul 2026 20:26:16 +0000
 MD5Sum:
  d58bb01747e2d92cfb7633806d373c48           131647 Packages
  cf7435df5485609057cc581b074b6437            31897 Packages.bz2
  ec431a0eb1ba437d656f5bfd710a8c2b            37635 Packages.gz
- 559f95f925d434a3639d641ad448333b              201 Release
+ ad41cc796c5e39d95af704071efb6034              201 Release
  d58bb01747e2d92cfb7633806d373c48           131647 dists/stable/main/binary-iphoneos-arm/Packages
  cf7435df5485609057cc581b074b6437            31897 dists/stable/main/binary-iphoneos-arm/Packages.bz2
- 3e9f17b32f9e466c0dfae033d819b46e            37635 dists/stable/main/binary-iphoneos-arm/Packages.gz
+ 8fe76a61633383780d94ee44ea016b66            37635 dists/stable/main/binary-iphoneos-arm/Packages.gz
 SHA1:
  7af5eb96e2c2659c19190edb392266e6c47d6991           131647 Packages
  035d4db7a700fbd88af9f7db5ef9f72b45139298            31897 Packages.bz2
  292e7e8ce62ddeb8a30c8935cf57dda473195a5c            37635 Packages.gz
- d4b749928f7c9a19a37bd6765afb289652f9b4fb              201 Release
+ e6f39085072afbcc6259bad5eb978ad4d196728a              201 Release
  7af5eb96e2c2659c19190edb392266e6c47d6991           131647 dists/stable/main/binary-iphoneos-arm/Packages
  035d4db7a700fbd88af9f7db5ef9f72b45139298            31897 dists/stable/main/binary-iphoneos-arm/Packages.bz2
- 36ddb2f5b3014559debe6d2acfadf5ee1a1fee23            37635 dists/stable/main/binary-iphoneos-arm/Packages.gz
+ 4b85b1e1af73a406a585193ba4818a84dff5a826            37635 dists/stable/main/binary-iphoneos-arm/Packages.gz
 SHA256:
  6b41b26dd5c1caad877496f0a82d2a1be7ae1855320a3c2395042b0360867e8b           131647 Packages
  38f36a5f2c502c36030d6201746314c7220331b7c9c3224db03e2fa45cb79cd4            31897 Packages.bz2
  9871d7fbd4527a04545343c55efd0648d449967db5de07dc6ea6c2c49ac0bf19            37635 Packages.gz
- aa83936285dd292e947aa78d6b6bd441112c397c79b8db64ece051d3d25cb554              201 Release
+ 28bc720870f9db2c91d0d99b539e5221ba02ee92507f38ccc7f68cbedf3611bb              201 Release
  6b41b26dd5c1caad877496f0a82d2a1be7ae1855320a3c2395042b0360867e8b           131647 dists/stable/main/binary-iphoneos-arm/Packages
  38f36a5f2c502c36030d6201746314c7220331b7c9c3224db03e2fa45cb79cd4            31897 dists/stable/main/binary-iphoneos-arm/Packages.bz2
- a66498ff2ebba7308bc2514bc867116fafca5931ef66f59c8ecb18199e38cf94            37635 dists/stable/main/binary-iphoneos-arm/Packages.gz
+ 69a1cd7dc6b19378ff6aa72cf3c92d19909deb037ff43c65be6e64b4923c6a29            37635 dists/stable/main/binary-iphoneos-arm/Packages.gz
 SHA512:
  c505b01b5e3d9e3a21f3bb6a282b419e280a1ae0717059d39c412de73c3ecd8fa39ba135038a63b0d1576c553779ec42ef5eb794cf72faf06536687546156189           131647 Packages
  fa0cacac0124cc2e788d1994e28fb5c608eaf778f5259adb894c54ca85eabae7d799b42fa5a5d12d64b4b1afeb10a016556b8182ba360160cf3270b6497a6905            31897 Packages.bz2
  813cb9db5fc3442a8f61d78da034afdfa3fee8ce64edd7d1d30dfa4bcba0dd083966762f645378f3ad66e68b0977817bf3c5a5bbb551331290b092a184dde96e            37635 Packages.gz
- b201e5b69c712c97ccb1b5faf81c93f794bb0c9082a181b2da8a0d56e0dc024fa2e76b0f6568f5dab6ebcef2eac5e25482374ff7a5816b91ebf65098c1f7d257              201 Release
+ 1e5bb97395dad2897b6a5e75d1cc51d73a9ecf72851ff4bdf56eda5909be673d0b486eb783235806d00fd5e0cb4bc47049e45f296e2d9a6a2d87ed20baf10473              201 Release
  c505b01b5e3d9e3a21f3bb6a282b419e280a1ae0717059d39c412de73c3ecd8fa39ba135038a63b0d1576c553779ec42ef5eb794cf72faf06536687546156189           131647 dists/stable/main/binary-iphoneos-arm/Packages
  fa0cacac0124cc2e788d1994e28fb5c608eaf778f5259adb894c54ca85eabae7d799b42fa5a5d12d64b4b1afeb10a016556b8182ba360160cf3270b6497a6905            31897 dists/stable/main/binary-iphoneos-arm/Packages.bz2
- b992c49c741b71e08688707b0b1ee3d4d6e4b2436a224025200686d7164769a5640b2a1033c8ca27f5bb7eddca3a3fb2cc9a3766aa075f349c3bd8f786d514ee            37635 dists/stable/main/binary-iphoneos-arm/Packages.gz
+ 9b1b561a9eb6089e1e17005afa5812ab9e416f1e6fa9eba752af7e342b352369e6f10ec6a68dff0fc4874d35fb63460cf8fbe79aa275f22401b1a3484448ec49            37635 dists/stable/main/binary-iphoneos-arm/Packages.gz
