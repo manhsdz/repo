@@ -95,24 +95,6 @@ Description: the advanced packaging library from Debian
 Name: APT 0.7 Strict (lib)
 
 Package: bag.skyglow.bluetweety
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Requis, bag.xml
-Installed-Size: 948
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: debs/bag.skyglow.bluetweety_1.0_iphoneos-arm.deb
-Size: 111010
-MD5sum: f32c4f1b3f728762ccb997ef62e4656e
-SHA1: 24d850223ca9966304324344d5c33164bc237c1e
-SHA256: baadc0ab0c67762ee605068e111e87776dffa05ea6e8209315b0d7a4fd3faa72
-Section: Tweaks
-Description: Fix the iOS integration with Twitter across the system, as well as the Twitter app.
-Author: Requis, bag.xml
-Depiction: http://cydia.skyglow.es/depictions/bag.skyglow.bluetweety/depictions/index.html
-Icon: file:///Library/Application%20Support/bag.skyglow.bluetweety/BlueTweety-Icon.png
-Name: BlueTweety
-
-Package: bag.skyglow.bluetweety
 Version: 2.0
 Architecture: iphoneos-arm
 Maintainer: Requis, bag.xml
@@ -128,78 +110,6 @@ Author: Requis, bag.xml
 Depiction: http://cydia.skyglow.es/depictions/bag.skyglow.bluetweety/depictions/index.html
 Icon: file:///Library/Application%20Support/bag.skyglow.bluetweety/BlueTweety-Icon.png
 Name: BlueTweety
-
-Package: bag.xml.tuberepair
-Version: 1.0-Beta-1
-Architecture: iphoneos-arm
-Maintainer: bag.xml, Requis
-Installed-Size: 568
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/bag.xml.tuberepair_1.0-Beta-1_iphoneos-arm.deb
-Size: 125684
-MD5sum: 6bea6b3f594d8b6374b2334595b79098
-SHA1: fda1964216cb67a1d75526daa7f10ccab25bbc13
-SHA256: ac457a661dd8ddc785e1ab3ff0b3d2b7af9a0dff09e39e4e6979a194500bdcac
-Section: Tweaks
-Description: TubeRepair is a tweak that redirects API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
-Author: bag.xml, Requis
-Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
-Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
-Name: TubeRepair [BETA]
-
-Package: bag.xml.tuberepair
-Version: 1.0-Beta-2
-Architecture: iphoneos-arm
-Maintainer: bag.xml, Requis
-Installed-Size: 360
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/bag.xml.tuberepair_1.0-Beta-2_iphoneos-arm.deb
-Size: 112372
-MD5sum: 7980faa2ee5ce03e934ca73dccc6d082
-SHA1: 3abb55c61184ebccb077b2bd3e690c2a7236624a
-SHA256: 8dc0fb828a3a854832f5fbcf6b7e8cdc34db6a18428fd1bb824c871daa62be10
-Section: Tweaks
-Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
-Author: bag.xml, Requis
-Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
-Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
-Name: TubeRepair [BETA]
-
-Package: bag.xml.tuberepair
-Version: 1.1-Beta-1
-Architecture: iphoneos-arm
-Maintainer: bag.xml, Requis
-Installed-Size: 152
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/bag.xml.tuberepair_1.1-Beta-1_iphoneos-arm.deb
-Size: 101590
-MD5sum: 0327b6b664d0aa4e995711d97b4f9d87
-SHA1: 63cd39d5a35083aefc4c29c5cba374b7c179118b
-SHA256: 473e78c61932d149c35c105fbcad00145314cc9b668ce207745ae6dc7596df59
-Section: Tweaks
-Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
-Author: bag.xml, Requis
-Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
-Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
-Name: TubeRepair [BETA]
-
-Package: bag.xml.tuberepair
-Version: 1.1-Beta-2
-Architecture: iphoneos-arm
-Maintainer: bag.xml, Requis
-Installed-Size: 216
-Depends: mobilesubstrate, preferenceloader
-Filename: debs/bag.xml.tuberepair_1.1-Beta-2_iphoneos-arm.deb
-Size: 101918
-MD5sum: 0a0b6a1a538c9aa369ef905fc6d1eb68
-SHA1: 2ccb6f9877e86a38c59b55c97f529beb37ebe866
-SHA256: a0728c4753df3625d847ba79c5128123020698f5c22f1890a2eb1b9da659727e
-Section: Tweaks
-Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
-Author: bag.xml, Requis
-Depiction: https://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
-Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
-Name: TubeRepair [BETA]
 
 Package: bag.xml.tuberepair
 Version: 1.2-Beta-1
@@ -284,46 +194,6 @@ Section: Archiving
 Priority: important
 Homepage: http://www.bzip.org/
 Description: compression that's slightly better than gzip
-
-Package: ca-certificates
-Version: 0.0.1-1
-Architecture: all
-Maintainer: Sam Bingner
-Depends: firmware (>= 2.0)
-Conflicts: org.thebigboss.cacerts
-Replaces: org.thebigboss.cacerts
-Provides: org.thebigboss.cacerts
-Filename: debs/ca-certificates_0-1_all.deb
-Size: 134436
-MD5sum: 5d4744afecd3bd84d9921bfa8755f70e
-SHA1: 2887452fc6e3007ead9053e9afbcd5d6dc3ebf99
-SHA256: 1c90511fd002151b274c28e50adb8654ecf210a305a891557dcd7d235dd95cf1
-Section: Utilities
-Priority: optional
-Multi-Arch: foreign
-Description: CA certs for curl, wget, git.
-Tag: purpose::console, role::hacker
-Name: CA Certs
-
-Package: ca-certificates
-Version: 0.0.2
-Architecture: all
-Maintainer: Sam Bingner
-Depends: firmware (>= 2.0)
-Conflicts: org.thebigboss.cacerts, openssl (<< 1.0.2r)
-Replaces: org.thebigboss.cacerts
-Provides: org.thebigboss.cacerts
-Filename: debs/ca-certificates_0.0.2_all.deb
-Size: 125710
-MD5sum: c9e280b321aba40459c988eac9625957
-SHA1: 878696ce1037a53c58d3d75dfcf39507a942f18c
-SHA256: 29d3d0d5b09686f117a0402796f3f99224e30168e44178a49a78f504f3c84ba2
-Section: Utilities
-Priority: optional
-Multi-Arch: foreign
-Description: CA certs for curl, wget, git.
-Tag: purpose::console, role::hacker
-Name: CA Certs
 
 Package: ca-certificates
 Version: 20231103-1
@@ -663,51 +533,63 @@ Author: Linus Yang
 Name: YoutubeNoAd
 
 Package: com.manh.edgeflow
-Version: 0.4.5-72+debug
+Version: 0.4.5-72+debug-1+debug
 Architecture: iphoneos-arm
 Maintainer: ManhSDZ
 Installed-Size: 744
-Depends: mobilesubstrate
-Filename: debs/com.manh.edgeflow_0.4.5-72+debug_iphoneos-arm.deb
-Size: 346386
-MD5sum: 5ec96def0bccfef7e2058b413a94ee4b
-SHA1: 1736edacb107b45c2eff54306e8af89dd72ebe8a
-SHA256: dd3194c0493d1ce90fbbe821c017d1f7ec163c60d234f6d2dd2f6525d20f9eb9
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.manh.edgeflow_0.4.5-72+debug-1+debug_iphoneos-arm.deb
+Size: 346496
+MD5sum: 00ddf4394fd07ae8f51ce95030dd5820
+SHA1: 3e4bc8fd726406e135e8b18478fb176936651ad2
+SHA256: dbdf5aaafe02cb74dfc92a94ed63e05f87e65305e35c8f18aff1ec7406d941cf
 Section: Tweaks
-Description: EdgeFlow test build for iOS 10
+Priority: optional
+Homepage: https://manhsdz.github.io/repo/
+Description: iPhone X style Control Center and gestures for iOS 10
+Tag: purpose::extension, role::enduser
 Author: ManhSDZ
+Depiction: https://manhsdz.github.io/repo/
 Name: EdgeFlow
 
 Package: com.manh.lockweather
-Version: 0.1.4-35+debug
+Version: 0.1.4-36+debug
 Architecture: iphoneos-arm
-Maintainer: Manh
+Maintainer: ManhSDZ
 Installed-Size: 212
-Depends: mobilesubstrate, firmware (>= 10.0)
-Filename: debs/com.manh.lockweather_0.1.4-35+debug_iphoneos-arm.deb
-Size: 36638
-MD5sum: 62c1d9b1985c3d708623bd75f8bc9f8a
-SHA1: 35caeca9635974807f540e14d3b7e9f6a3e188b7
-SHA256: 73f9a22f5c83deb22ad453af8fa5a7ecb5aaf0e57040a22f83cf46303edcd4df
+Depends: mobilesubstrate
+Filename: debs/com.manh.lockweather_0.1.4-36+debug_iphoneos-arm.deb
+Size: 36688
+MD5sum: 586f7d34a3caf9cb41eb61caf56aa2ad
+SHA1: ae4bb7350f91c9286eb2f5a05ae7234ef9b7c45f
+SHA256: 781dc34bc91e873b82daa93263396f044401fc72142df021daf3cd3d433ca16c
 Section: Tweaks
-Description: Weather panel for the iOS lock screen and Notification Center.
+Priority: optional
+Homepage: https://manhsdz.github.io/repo/
+Description: Weather panel for Lock Screen and Notification Center
+Tag: purpose::extension, role::enduser
 Author: ManhSDZ
+Depiction: https://manhsdz.github.io/repo/
 Name: MWeather
 
 Package: com.manh.mtune
-Version: 0.3.8-1+debug
+Version: 0.3.8-2+debug
 Architecture: iphoneos-arm
-Maintainer: Manh
+Maintainer: ManhSDZ
 Installed-Size: 192
-Depends: preferenceloader, firmware (>= 5.0)
-Filename: debs/com.manh.mtune_0.3.8-1+debug_iphoneos-arm.deb
-Size: 27852
-MD5sum: 3d3f57c57ce8734a618ff7d3c651a38f
-SHA1: e45a66c02c858c3990741dcf3da4715cdd7b621e
-SHA256: 3a9696dfdcd9afc8e8a41bbc07c20dca6adf29ea3fa8caf0b4d9447e8e3030c5
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.manh.mtune_0.3.8-2+debug_iphoneos-arm.deb
+Size: 27942
+MD5sum: d1d8dcd8ab5c4252fb2f6fd7244e3d5f
+SHA1: 148ff3b3f2705d5c8b8ef88aafb88f33272a0c83
+SHA256: d8ef57e419fb94d68dcbb576faf65c014ac4d1d288bc9308cbb3de06b6b1e01c
 Section: Tweaks
-Description: Cleanup, OTA blocking, and respring utility for legacy iOS.
-Author: Manh
+Priority: optional
+Homepage: https://manhsdz.github.io/repo/
+Description: Clean cache, logs, temp files, block OTA updates, and respring tools for older iOS.
+Tag: purpose::extension, role::enduser
+Author: ManhSDZ
+Depiction: https://manhsdz.github.io/repo/
 Name: Mtune
 
 Package: com.officialscheduler.mterminal
@@ -862,40 +744,6 @@ Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 Name: Substrate Safe Mode
 
 Package: com.skyglow.itunesstorex
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: Requis, Daph
-Installed-Size: 216
-Depends: mobilesubstrate
-Filename: debs/com.skyglow.itunesstorex_1.0_iphoneos-arm.deb
-Size: 10024
-MD5sum: f2f96aae1dddb8436bca74599aec8b58
-SHA1: da00d1b016b81f99a9957c9fedfd2a14828a332b
-SHA256: 927287c428c5cdea231c597824a211db0af2c38d030bc45cfd66fff2ca95a5ac
-Section: Tweaks
-Description: Fix the iOS 6 AppStore connection issues, and restore its classic layout, furthermore this tweak has been updated to no longer consume as much battery as it did before, now being minimal.
-Author: Requis, Daph
-Name: iTunesLayoutFix
-
-Package: com.skyglow.itunesstorex
-Version: 2.5
-Architecture: iphoneos-arm
-Maintainer: Requis, Bag.xml
-Installed-Size: 312
-Depends: mobilesubstrate, firmware(<==7.9)
-Filename: debs/com.skyglow.itunesstorex_2.5_iphoneos-arm.deb
-Size: 106508
-MD5sum: fe7579e05ac248a38df0a065fc92f6dc
-SHA1: 06ab5ef2a70520f97669afec34f16a2b3e765ba1
-SHA256: c8ff8a6d141ed09f28a9ae8c8bdb793dfaddd5cc0b221065f5fe02d663038c1c
-Section: Tweaks
-Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
-Author: Requis, Bag.xml
-Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depictions/index.html
-Icon: file:///Library/Application%20Support/com.skyglow.itunesstorex/iTunesStoreX-Icon.png
-Name: iTunesStoreX
-
-Package: com.skyglow.itunesstorex
 Version: 3.2
 Architecture: iphoneos-arm
 Maintainer: Requis, Bag.xml
@@ -912,60 +760,6 @@ Author: Requis, Bag.xml
 Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depictions/index.html
 Icon: file:///Library/Application%20Support/com.skyglow.itunesstorex/iTunesStoreX-Icon.png
 Name: iTunesStoreX
-
-Package: com.skyglow.mapsx
-Version: 2.0
-Architecture: iphoneos-arm
-Maintainer: Requis
-Installed-Size: 304
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.skyglow.mapsx_2.0_iphoneos-arm.deb
-Size: 110736
-MD5sum: 8b40111dacc1b363d87a59b05abb9d1b
-SHA1: 4bd1cd04b07e66c3dd5c2654826d0d1c7056c770
-SHA256: e961e45c5d43722ce373206de6cc30ba8e5a1c3fc6ade0831b7e4576bf009c6d
-Section: Tweaks
-Description: This tweak fixes Apple Maps and any MapView in the system (asking Siri for location...) by redirecting various dead URI.
-Author: Requis
-Depiction: http://cydia.skyglow.es/depictions/com.skyglow.mapsx/depictions/index.html
-Icon: file:///Library/Application%20Support/com.skyglow.mapsx/MapsX-Icon.png
-Name: MapsX
-
-Package: com.skyglow.mapsx
-Version: 3.0
-Architecture: iphoneos-arm
-Maintainer: Requis
-Installed-Size: 308
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.skyglow.mapsx_3.0_iphoneos-arm.deb
-Size: 121398
-MD5sum: 1d90678d3e53992238f9f895d1bb451d
-SHA1: 1b9ed91e75d7b1e4d92fb3d41032503e1fa0127b
-SHA256: 9389f79744c4c83d1edcda032a81ad67129f007b36cb3f4c5feb2f5902f75a69
-Section: Tweaks
-Description: This tweak fixes Apple Maps and any MapView in the system (asking Siri for location...) by redirecting various dead URI.
-Author: Requis
-Depiction: http://cydia.skyglow.es/depictions/com.skyglow.mapsx/depictions/index.html
-Icon: file:///Library/Application%20Support/com.skyglow.mapsx/MapsX-Icon.png
-Name: MapsX
-
-Package: com.skyglow.mapsx
-Version: 3.2
-Architecture: iphoneos-arm
-Maintainer: Requis
-Installed-Size: 356
-Depends: mobilesubstrate (>= 0.9.5000)
-Filename: debs/com.skyglow.mapsx_3.2_iphoneos-arm.deb
-Size: 140024
-MD5sum: 96ead83899ea3b5ad0b62572eb4246bc
-SHA1: dbf746fcd0e259c89112132a6f95745075287080
-SHA256: f858a8c40ae49dffbe8e736a8584a0fdc5f7ef018bfb586fdfe3431b51a1b002
-Section: Tweaks
-Description: This tweak fixes Apple Maps and any MapView in the system (asking Siri for location...).
-Author: Requis
-Depiction: http://cydia.skyglow.es/depictions/com.skyglow.mapsx/depictions/index.html
-Icon: file:///Library/Application%20Support/com.skyglow.mapsx/MapsX-Icon.png
-Name: MapsX
 
 Package: com.skyglow.mapsx
 Version: 3.2.1
@@ -1030,23 +824,6 @@ Size: 155732
 MD5sum: 6aa4e844d1e64e2e438766f90020026a
 SHA1: 081251d74f6477ad52d646e31ae6a1b0ac568d03
 SHA256: 9a10ef9f48ba0f7f9df64285f5a18ee294bb9c1acbadea1f1515c1c008115075
-Section: Tweaks
-Description: Fix iOS's Weather & Stocks apps from iPhoneOS 2 to iOS 7, the widgets in the notification center, and the temperature in the iPad clock app!
-Author: Requis, Electimon
-Depiction: http://cydia.skyglow.es/depictions/com.skyglow.weatherx/depictions/index.html
-Name: Weather & Stocks
-
-Package: com.skyglow.weatherx
-Version: 3.5
-Architecture: iphoneos-arm
-Maintainer: Requis
-Depends: mobilesubstrate (>= 0.9.2586), firmware (>= 2.0), firmware (<= 7.9), preferenceloader
-Conflicts: com.ixmoe.1pwn.weatherx, com.skyglow.stocksx
-Filename: debs/WeatherX-Legacy.deb
-Size: 155622
-MD5sum: a6d5f494a673da237ffa95d289538447
-SHA1: 9fb97aee0ce011ea1b6bf8224e8da0ef5af2652b
-SHA256: b530eb8231e01a11562e16f23767c925f548e3261b224aaf3f7047afa514a6a0
 Section: Tweaks
 Description: Fix iOS's Weather & Stocks apps from iPhoneOS 2 to iOS 7, the widgets in the notification center, and the temperature in the iPad clock app!
 Author: Requis, Electimon
@@ -3010,45 +2787,6 @@ Description: Enables the ability to install unsigned/fakesigned iOS applications
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
 Name: AppSync Unified
-
-Package: net.angelxwind.appsyncunified
-Version: 84.0
-Architecture: iphoneos-arm
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Installed-Size: 496
-Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
-Replaces: us.hackulo.appsync50
-Provides: appsync
-Filename: debs/nodelete-net.angelxwind.appsyncunified.deb
-Size: 42058
-MD5sum: 979c1973c503b9eb4e9e1151d97c4421
-SHA1: e7b5a9a5fe95eef270b1d0e2e70a40a6567a1636
-SHA256: 41dd591135281ca31ed5564ffa283f126bc0da1818691c8601abe6d7c18b7fff
-Section: Tweaks
-Homepage: https://cydia.akemi.ai/
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
-Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
-Name: AppSync Unified
-
-Package: openssh
-Version: 6.7p1-13
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 4736
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: openssl
-Filename: debs/openssh_6.7p1-13_iphoneos-arm.deb
-Size: 2374378
-MD5sum: 7ca1a53c5203d7026d38ab275b465047
-SHA1: 72894eb331fadf94e53d2ae55e4cca0534a95d5b
-SHA256: 5bdc1aa0240be68aee7cb00d2aafe2041174b6a3b171c74c41c3a7ba9109c9c7
-Section: Networking
-Priority: important
-Description: secure remote access between machines
-Depiction: http://cydia.saurik.com/info/openssh/
-Name: OpenSSH
 
 Package: openssh
 Version: 7.9p1-3
