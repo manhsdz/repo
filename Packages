@@ -663,16 +663,16 @@ Author: Linus Yang
 Name: YoutubeNoAd
 
 Package: com.manh.edgeflow
-Version: 0.4.5-72+debug-1+debug
+Version: 0.4.5-72+debug-3+debug
 Architecture: iphoneos-arm
 Maintainer: ManhSDZ
 Installed-Size: 744
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/com.manh.edgeflow_0.4.5-72+debug-1+debug_iphoneos-arm.deb
-Size: 346496
-MD5sum: 00ddf4394fd07ae8f51ce95030dd5820
-SHA1: 3e4bc8fd726406e135e8b18478fb176936651ad2
-SHA256: dbdf5aaafe02cb74dfc92a94ed63e05f87e65305e35c8f18aff1ec7406d941cf
+Filename: debs/com.manh.edgeflow_0.4.5-72-3+debug_iphoneos-arm.deb
+Size: 346690
+MD5sum: ad7f33c974759b18adde640c655588a1
+SHA1: 877f52d2b42fb5ee79c2fa4d74f28c18bbfdc21d
+SHA256: b2f0ff7d7eb79f6c30c04e8e25da9461a9b64c28caaa30676eee5a3b76e5425f
 Section: Tweaks
 Priority: optional
 Homepage: https://manhsdz.github.io/repo/
